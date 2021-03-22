@@ -1,0 +1,374 @@
+.container {
+    margin: 0px auto;
+    background-color: #f9f9f9;
+}
+header {
+    display: inline-block;
+}
+    header h1 {
+        display: inline-block;
+        width: 480px;
+        margin: 10px;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+    header ul {
+        display: inline-block;
+    }
+    header ul li {
+        list-style-type: none;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 18px;
+    }
+.main {
+    background-color: #5f4d55;
+    padding: 0px;
+}
+    .main h3 {
+        background: linear-gradient(#b7b1b6, #888693, #b7b1b6);
+        color: white;
+        padding: 5px;
+        margin: 0px;
+    }
+    .info {
+        display: inline-block;
+        height: 270px;
+        width: 520px;
+        padding: 10px;
+    }
+img {
+    border: 5px solid #c2c0c1;
+    display: inline-block;
+}
+.about {
+    background-image: linear-gradient(to right, #f9f7fa , #dccbd6);
+    vertical-align: top;
+    margin: 15px;
+    padding: 0px;
+    display: inline-block;
+    height: 260px;
+}
+    .about a {
+        padding: 10px;
+    }
+    .about p {
+        padding: 10px;
+        margin: 0px;
+    }
+.skills {
+    display: inline-block;
+}
+    .skills img {
+        padding: 0px;
+        margin: 0px;
+        border-style: none;
+        display: inline-block;
+    }
+    .skills p {
+        margin: 0px 15px;
+    }
+.la_mode {
+    display: inline-block;
+    background-image: linear-gradient(to right, #f9f7fa , #dccbd6);
+    margin: 15px 15px 0px 15px;
+    margin-bottom: 45px;
+    vertical-align: top;
+}
+.family_contacts {
+    display: inline-block;
+    background-image: linear-gradient(to right, #f9f7fa , #dccbd6);
+    vertical-align: top;
+}
+.five_eleven {
+    display: inline-block;
+    background-image: linear-gradient(to right, #f9f7fa , #dccbd6);
+    vertical-align: top;
+}
+.tech {
+    display: inline-block;
+    margin-top: 10px;
+}
+    .tech a {
+        color:  white;
+        text-decoration: none;
+        display: inline-block;
+        background: #417d62;
+        border-radius: 20px;
+        padding: 4px;
+        border: 1px solid black;
+        box-shadow: 3px 3px 3px 0px #919792;
+    }
+    .tech .icons {
+        display: inline-block;
+        text-align: left;
+        padding-top: 10px;
+        vertical-align: top;
+    }
+.footer {
+    text-align: center;
+    display: inline-block;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+    .footer img {
+        border-style: none;
+        width: 15px;
+        height: 15px;
+        margin: 0px;
+        display: inline-block;
+        padding-right: 1px;
+    }
+    .footer ul li {
+        list-style-type: none;
+        display: inline;
+        padding-bottom: 10px;
+    }
+    .footer p {
+        padding: 0px;
+    }
+    .footer a {
+        font-style: italic;
+        color: black;
+    }
+@media only screen and (max-width: 480px){
+    .container {
+        width: 450px;
+    }
+    header {
+        width: 840px;
+        margin: 0px;
+        padding: 5px;
+    }
+        header ul {
+            margin-left: -330px;
+        }
+        header ul li {
+            font-size: 14px;
+        }
+    .main {
+        height: 1560px;
+    }
+    img {
+        height: 250px;
+        width: 370px;
+        margin: 15px 0px 15px 33px;
+    }
+    .about {
+            width: 420px;
+        }
+    .skills img {
+        height: 200px;
+        width:250px;
+    }
+    .la_mode {
+            width: 420px;
+            height: 300px;
+        }
+        .la_mode p {
+            display: none;
+        }
+    .family_contacts {
+            width: 420px;
+            margin: -15px 15px 0px 15px;
+            height: 300px;
+        }
+        .family_contacts p {
+            display: none;
+        }
+    .five_eleven {
+            width: 420px;
+            margin: 15px 15px;
+            height: 300px;
+        }
+        .five_eleven p {
+            display: none;
+        }
+    .tech img {
+        border-style: none;
+        height: 40px;
+        width: 40px;
+        margin-left: 8px;
+        display: inline-block;
+    }
+        .tech .la-link {
+            display: inline-block;
+            margin-top: -300px;
+            margin-left: 300px;
+        }
+        .tech .five-link {
+            display: inline-block;
+            margin-top: -300px;
+            margin-left: 290px;
+        }
+        .tech .fam-link {
+            display: inline-block;
+            margin-top: -200px;
+            margin-left: 275px;
+        }
+    .la_mode .tech h3 {
+        display: none;
+    }
+        .la_mode .tech .icons {
+            margin-top: -170px;
+            margin-left: 250px;
+            margin-bottom: 0px;
+        }
+    .family_contacts .tech h3 {
+        display: none;
+    }
+        .family_contacts .tech .icons {
+            margin-top: -170px;
+            margin-left: 250px;
+        }
+    .five_eleven .tech h3 {
+        display: none;
+    }
+        .five_eleven .tech .icons {
+            margin-top: -180px;
+            margin-left: 250px;
+        }
+    .footer {
+        width: 610px;
+    }
+        .footer ul li {
+            margin-left: -190px;
+        }
+        .footer p {
+            margin-left: -150px;
+        }
+}
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .container {
+        width: 710px;
+    }
+    header {
+        display: inline-block;
+    }
+        header ul {
+            margin-left: -130px;
+        }
+    .main {
+        height: 755px;
+    }   
+    img {
+        height: 250px;
+        width: 260px;
+        margin: 15px 0px 15px 15px;
+    }
+    .about {
+            width: 390px;
+        }
+    .skills img {
+        height: 160px;
+        width: 213px;
+    }
+    .la_mode {
+            width: 213px;
+            height: 430px;
+        }
+        .la_mode p {
+            display: none;
+        }
+    .family_contacts {
+            width: 213px;
+            margin: 15px 15px 0px 0px;
+            height: 430px;
+        }
+        .family_contacts p {
+            display: none;
+        }
+    .five_eleven {
+            width: 213px;
+            margin: 15px 0px;
+            height: 430px;
+        }
+        .five_eleven p {
+            display: none;
+        }
+    .tech img {
+        border-style: none;
+        height: 40px;
+        width: 40px;
+        margin-left: 8px;
+    }
+        .tech a {
+            margin: 40px 0px 0px 65px;
+        }
+        .tech .five-link {
+            margin: 0px 0px 0px 75px;
+        }
+        .tech .fam-link {
+            margin-left: 50px;
+        }
+    .la_mode .tech h3 {
+        margin-top: 1px;
+    }
+    .family_contacts .tech h3 {
+        margin-top: 1px;
+    }
+    .footer {
+        width: 910px;
+    }
+        .footer ul li {
+            margin-left: -190px;
+        }
+        .footer p {
+            margin-left: -190px;
+        }
+}
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 910px;
+    }
+        header ul li {
+            font-size: 18px;
+        }
+    .main {
+        height: 925px;
+    }
+    img {
+        height: 250px;
+        width: 360px;
+        margin: 15px 0px 15px 15px;
+    }
+    .about {
+            width: 490px;
+        }
+        .skills img {
+            height: 160px;
+            width:280px;
+        }
+    .la_mode {
+            width: 280px;
+            height: 600px;
+        }
+    .family_contacts {
+            width: 280px;
+            margin: 15px 15px 0px 0px;
+            height: 600px;
+        }
+    .five_eleven {
+            width: 280px;
+            margin: 15px 0px;
+            height: 600px;
+        }
+    .tech img {
+        border-style: none;
+        height: 40px;
+        width: 40px;
+        margin-left: 8px;
+    }
+        .tech a {
+            margin: 20px 0px 0px 95px;
+        }
+    .la_mode .tech h3 {
+        margin-top: 55px;
+    }
+    .family_contacts .tech h3 {
+        margin-top: 20px;
+    }
+    .footer {
+        width: 910px;
+    }
+}
